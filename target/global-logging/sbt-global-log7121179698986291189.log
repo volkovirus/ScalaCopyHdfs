@@ -1,0 +1,107 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (BellSoft Java 11.0.10)
+[debug]                   Load.loadUnit: plugins took 22.498ms
+[debug]                   Load.loadUnit: defsScala took 0.0169ms
+[debug] [Loading] Scanning directory C:\Users\avolkov\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\avolkov\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3534 ms
+[debug]                       Load.resolveProject(global-plugins) took 0.8623ms
+[debug]                     Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\avolkov\.sbt\1.0\plugins, plugins: List(<none>))) took 3.5396ms
+[debug] [Loading] Done in C:\Users\avolkov\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]                   Load.loadUnit: loadedProjectsRaw took 4.4027ms
+[debug]                   Load.loadUnit: cleanEvalClasses took 0.0081ms
+[debug]                 Load.loadUnit(file:/C:/Users/avolkov/.sbt/1.0/plugins/, ...) took 27.8249ms
+[debug]               Load.apply: load took 28.9567ms
+[debug]               Load.apply: resolveProjects took 0.0871ms
+[debug]               Load.apply: finalTransforms took 5.6222ms
+[debug]               Load.apply: config.delegates took 0.254ms
+[debug]               Load.apply: Def.make(settings)... took 53.5247ms
+[debug]               Load.apply: structureIndex took 15.386ms
+[debug]               Load.apply: mkStreams took 0.002ms
+[info] loading global plugins from C:\Users\avolkov\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]             Load.defaultLoad until apply took 370.3891ms
+[debug]                       Load.loadUnit: plugins took 27.4742ms
+[debug]                       Load.loadUnit: defsScala took 0.0173ms
+[debug] [Loading] Scanning directory C:\Users\avolkov\git\scala_copy_hdfs\project
+[debug]                         Load.loadUnit: mkEval took 1.1171ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\avolkov\git\scala_copy_hdfs\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9447 ms
+[info] loading settings for project scala_copy_hdfs-build from assembly.sbt,idea.sbt ...
+[debug]                           Load.resolveProject(scala_copy_hdfs-build) took 5.3082ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id scala_copy_hdfs-build, base: C:\Users\avolkov\git\scala_copy_hdfs\project, plugins: List(<none>))) took 6.632ms
+[debug] [Loading] Done in C:\Users\avolkov\git\scala_copy_hdfs\project, returning: (scala_copy_hdfs-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 63.0596ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 2.0911ms
+[debug]                     Load.loadUnit(file:/C:/Users/avolkov/git/scala_copy_hdfs/project/, ...) took 94.9278ms
+[debug]                   Load.apply: load took 96.2307ms
+[debug]                   Load.apply: resolveProjects took 0.1162ms
+[debug]                   Load.apply: finalTransforms took 7.5818ms
+[debug]                   Load.apply: config.delegates took 0.3753ms
+[debug]                   Load.apply: Def.make(settings)... took 84.6679ms
+[debug]                   Load.apply: structureIndex took 20.9784ms
+[debug]                   Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\Users\avolkov\git\scala_copy_hdfs\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		org.apache.hadoop:hadoop-client:3.2.1 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading org.apache.hadoop:hadoop-client;sbtVersion=1.0;scalaVersion=2.12:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client_2.12_1.0/3.2.1/hadoop-client-3.2.1.pom
+[error]   not found: C:\Users\avolkov\.ivy2\localorg.apache.hadoop\hadoop-client\scala_2.12\sbt_1.0\3.2.1\ivys\ivy.xml
+[error]   not found: C:\Users\avolkov\AppData\Roaming\JetBrains\IntelliJIdea2020.3\plugins\Scala\repo\org.apache.hadoop\hadoop-client\scala_2.12\sbt_1.0\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.hadoop/hadoop-client/scala_2.12/sbt_1.0/3.2.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.apache.hadoop/hadoop-client/scala_2.12/sbt_1.0/3.2.1/ivys/ivy.xml
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3486)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.hadoop:hadoop-client;sbtVersion=1.0;scalaVersion=2.12:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client_2.12_1.0/3.2.1/hadoop-client-3.2.1.pom
+[error]   not found: C:\Users\avolkov\.ivy2\localorg.apache.hadoop\hadoop-client\scala_2.12\sbt_1.0\3.2.1\ivys\ivy.xml
+[error]   not found: C:\Users\avolkov\AppData\Roaming\JetBrains\IntelliJIdea2020.3\plugins\Scala\repo\org.apache.hadoop\hadoop-client\scala_2.12\sbt_1.0\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.hadoop/hadoop-client/scala_2.12/sbt_1.0/3.2.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.apache.hadoop/hadoop-client/scala_2.12/sbt_1.0/3.2.1/ivys/ivy.xml
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Users/avolkov/git/scala_copy_hdfs/}scala_copy_hdfs/products {file:/C:/Users/avolkov/git/scala_copy_hdfs/}scala_copy_hdfs/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\avolkov\git\scala_copy_hdfs\target\scala-2.12\classes ...
+[info] done compiling
+[success] Total time: 0 s, completed 18 апр. 2021 г., 11:25:32
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
