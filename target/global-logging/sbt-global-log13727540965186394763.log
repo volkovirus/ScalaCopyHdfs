@@ -1,8 +1,0 @@
-[debug] > Exec(all {file:/C:/Users/avolkov/git/scala_copy_hdfs/}scala_copy_hdfs/products {file:/C:/Users/avolkov/git/scala_copy_hdfs/}scala_copy_hdfs/test:products, None, None)
-[debug] Evaluating tasks: Compile / products, Test / products
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[debug] Forcing garbage collection...
-[success] Total time: 0 s, completed 30 мар. 2021 г., 22:41:19
-[debug] > Exec(idea-shell, None, None)
-[debug] > Exec(, None, None)
-[debug] > Exec(idea-shell, None, None)
